@@ -23,7 +23,7 @@ rm -rf Scripts
 mkdir Scripts
 cd Scripts
 PS3='What would you like to install? '
-options=("Spigot" "Bungee" "Waterfall" "Lilypad" "Vanilla" "Paperspigot" "Basics" "Forge" "Cauldron" "Sponge" "Jars" "Web" "Travertine" "TacoSpigot" "HexaCord" "craftbukkit" "Torch" "Hose")
+options=("Spigot" "Bungee" "Waterfall" "Lilypad" "Vanilla" "Paperclip" "Basics" "Forge" "Cauldron" "Sponge" "Jars" "Web" "Travertine" "TacoSpigot" "HexaCord" "craftbukkit" "Torch" "Hose")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -68,9 +68,7 @@ do
             ./Forge.sh
             ;;
         "Cauldron")
-            echo "
-            Please note that cauldron is no longer supported nor updated
-            "
+            echo "Please note that cauldron is no longer supported nor updated"
             wget https://buzzzy.co/Hub/ServerSetup/Scripts/Cauldron.sh
             chmod 770 ./Cauldron.sh
             ./Cauldron.sh
@@ -81,19 +79,13 @@ do
             ./Sponge.sh
             ;;
         "Jars")
-            echo "
-            Fixing jars
-            " 
+            echo "Fixing jars" 
             cd ~
             rm -rf Jars
-            echo "
-            Should be fixed!
-            "
+            echo "Should be fixed!"
             ;;
         "Web")
-            echo "
-            THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!
-            "
+            echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!"
             sleep 1
             wget https://buzzzy.co/Hub/ServerSetup/Scripts/web,sh
             chmod 770 ./web.sh

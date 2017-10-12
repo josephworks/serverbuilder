@@ -7,3 +7,4 @@ sudo apt upgrade
 cd serversetup
 ls
 ./serversetup.sh
+cd Scripts
