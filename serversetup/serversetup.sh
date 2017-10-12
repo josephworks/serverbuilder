@@ -5,7 +5,8 @@
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
-sudo apt install toilet
+sudo apt update
+sudo apt install toilet figlet maven default-jre
 toilet -f mono12 -F metal ServerSetup
 echo "Version: 6.0"
 sleep 2
