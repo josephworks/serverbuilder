@@ -11,20 +11,12 @@ echo "Version: 6.0"
 sleep 2
 echo "Written by Buzzy and Joseph and Emeraldtnt!"
 sleep .3
-echo "
-Report all bugs here: https://github.com/josephworks/serverbuilder/issues
-"
-echo "
-You will need to run the option Basics before anything else for it to work!
-"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
+echo "You will need to run the option Basics before anything else for it to work!"
 sleep 1
-echo "
-If you would like to support me check out my paypal link on the plugin page.
-"
+echo "If you would like to support me check out my paypal link on the plugin page."
 sleep 2
-echo "
-If you are having a problem updating the jars, run the Jars option then try again!
-"
+echo "If you are having a problem updating the jars, run the Jars option then try again!"
 cd ~
 rm -rf Scripts
 mkdir Scripts
@@ -136,6 +128,6 @@ do
             chmod 770 ./Hose.sh
             ./Hose.sh
             ;;
-        *) echo invalid option;;
+        *) echo invalid option, please try again!;;
     esac
     done
