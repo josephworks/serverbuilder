@@ -87,7 +87,7 @@ do
         "Web")
             echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!"
             sleep 1
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/web,sh
+            wget https://buzzzy.co/Hub/ServerSetup/Scripts/web.sh
             chmod 770 ./web.sh
             ./web.sh
             ;;
