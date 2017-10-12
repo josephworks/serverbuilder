@@ -28,53 +28,53 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Spigot")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/spigot.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/spigot.sh
             chmod 770 ./spigot.sh
             ./spigot.sh
             ;;
          "Bungee")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Bungee.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Bungee.sh
             chmod 770 ./Bungee.sh
             ./Bungee.sh
             ;;
          "Waterfall")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Waterfall.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Waterfall.sh
             chmod 770 ./Waterfall.sh
             ./Waterfall.sh
             ;;
         "Lilypad")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Lilypad.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Lilypad.sh
             chmod 770 ./Lilypad.sh
             ./Lilypad.sh
             ;;
         "Vanilla")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Vanilla.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Vanilla.sh
             chmod 770 ./Vanilla.sh
             ./Vanilla.sh
             ;;
         "Paperspigot")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Paperspigot.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/paperbuild.sh
             chmod 770 ./Paperspigot.sh
             ./Paperspigot.sh
             ;;
         "Basics")
-            wget https://buzzzy.co/Hub/ServerSetup/Global/basics.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/basics.sh
             chmod 770 ./basics.sh
             ./basics.sh
             ;;
         "Forge")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Forge.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Forge.sh
             chmod 770 ./Forge.sh
             ./Forge.sh
             ;;
         "Cauldron")
             echo "Please note that cauldron is no longer supported nor updated"
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Cauldron.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Cauldron.sh
             chmod 770 ./Cauldron.sh
             ./Cauldron.sh
             ;;
         "Sponge")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Sponge.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Sponge.sh
             chmod 770 ./Sponge.sh
             ./Sponge.sh
             ;;
@@ -87,37 +87,37 @@ do
         "Web")
             echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!"
             sleep 1
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/web.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/web.sh
             chmod 770 ./web.sh
             ./web.sh
             ;;
         "Travertine")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Travertine.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Travertine.sh
             chmod 770 ./Travertine.sh
             ./Travertine.sh
             ;;
         "TacoSpigot")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/TacoSpigot.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/TacoSpigot.sh
             chmod 770 ./TacoSpigot.sh
             ./TacoSpigot.sh
             ;;
         "HexaCord")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/HexaCord.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/HexaCord.sh
             chmod 770 ./HexaCord.sh
             ./HexaCord.sh
             ;;
         "craftbukkit")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/craftbukkit.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/craftbukkit.sh
             chmod 770 ./craftbukkit.sh
             ./craftbukkit.sh
             ;;
         "Torch")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Torch.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Torch.sh
             chmod 770 ./Torch.sh
             ./Torch.sh
             ;;
         "Hose")
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/Hose.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Hose.sh
             chmod 770 ./Hose.sh
             ./Hose.sh
             ;;

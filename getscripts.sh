@@ -7,7 +7,7 @@ wget https://buzzzy.co/Hub/ServerSetup/Scripts/Bungee.sh
 wget https://buzzzy.co/Hub/ServerSetup/Scripts/Waterfall.sh
 wget https://buzzzy.co/Hub/ServerSetup/Scripts/Lilypad.sh
 wget https://buzzzy.co/Hub/ServerSetup/Scripts/Vanilla.sh
-wget https://buzzzy.co/Hub/ServerSetup/Scripts/Paperspigot.sh
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/paperbuild.sh
 wget https://buzzzy.co/Hub/ServerSetup/Global/basics.sh
 wget https://buzzzy.co/Hub/ServerSetup/Scripts/Forge.sh
 wget https://buzzzy.co/Hub/ServerSetup/Scripts/Cauldron.sh
