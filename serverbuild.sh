@@ -17,22 +17,20 @@ echo started
 echo showing start message...
 toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
-echo "Version: 2.0"
-sleep 2
-echo "Written by Joseph/Emeraldtnt!"
-sleep .3
-echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
-sleep 1
-echo "If you would like to support me check out my paypal link on the plugin page."
-sleep 2
-echo "If you are having a problem updating the jars, run the Jars option then try again!"
 cd ~
+echo "Version: 2.0"
+echo "Written by Joseph/Emeraldtnt!"
+echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
+echo "If you would like to support me check out my paypal link on the plugin page."
+sleep 5s
+echo "If you are having a problem updating the jars, run the Jars option then try again!"
 # echo creating custom commands
 # broken for now
 # echo %commandhere% > /usr/bin/commands.sh
 echo ┍━━━━━━━━━━━━━┑
-PS3='ServerBuilder>'
+echo  ServerBuilder>
 echo ┗━━━━━━━━━━━━━┛
+PS3='ServerBuilder>'
 options=("Spigot" "Bungee" "Waterfall" "Lilypad" "Vanilla" "Paperclip" "Basics" "Forge" "Cauldron" "Sponge" "Jars" "Web" "Travertine" "TacoSpigot" "HexaCord" "craftbukkit" "Torch" "Hose")
 select opt in "${options[@]}"
 do
