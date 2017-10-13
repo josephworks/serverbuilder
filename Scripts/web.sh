@@ -1,8 +1,6 @@
 ##################################################################################
 ##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
-##                 Report config error https://buzzzy.co                        ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
@@ -21,7 +19,7 @@ Version: 5.5
 "
 sleep 2
 echo "
-Written by Buzzy
+Written by EmeraldTnt
 "
 sleep .3
 echo "

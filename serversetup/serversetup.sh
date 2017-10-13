@@ -1,7 +1,6 @@
 ##################################################################################
-##                    SERVER SETUP SCRIPT BY EMERALDTNT                         ##
+##                 SERVER SETUP SCRIPT FORKED BY EMERALDTNT                     ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 sudo apt update
@@ -9,7 +8,7 @@ sudo apt install toilet figlet maven default-jre
 toilet -f mono12 -F metal ServerSetup
 echo "Version: 6.0"
 sleep 2
-echo "Written by Buzzy and Joseph and Emeraldtnt!"
+echo "Written by EmeraldTnt and Joseph and Emeraldtnt!"
 sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 echo "You will need to run the option Basics before anything else for it to work!"
