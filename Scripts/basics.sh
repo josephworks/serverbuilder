@@ -1,7 +1,6 @@
 ##################################################################################
-##                    SERVER SETUP SCRIPT BY BUZZY                              ##
-##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
+##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################

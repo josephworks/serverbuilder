@@ -1,5 +1,5 @@
 ##################################################################################
-##                    SERVER SETUP SCRIPT BY BUZZY                              ##
+##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
 ##                 Report config error https://buzzzy.co                        ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
 ##################################################################################
