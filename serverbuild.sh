@@ -1,9 +1,20 @@
 echo starting...
+#-----------------------------------------------
 echo installing dependencies
+# main work
 sudo apt update
 sudo apt install toilet figlet maven default-jre
-echo showing start message...
+# serversetup depends
+echo installing dependencies ..
+echo "trying for Ubuntu"
+sudo apt install wget apache2 mysql-server php5 libapache2-mod-php5 default-jre screen git
+echo "Trying for Debian"
+sudo apt install wget mysql-server default-jre screen git php5-common libapache2-mod-php5 php5-cli apache2
+echo "For CentOS:"
+echo "You will need to run the option Basics before anything else for it to work!"
+#-----------------------------------------------
 echo started
+echo showing start message...
 toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
 echo "Version: 2.0"
@@ -11,7 +22,6 @@ sleep 2
 echo "Written by Joseph/Emeraldtnt!"
 sleep .3
 echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
-echo "You will need to run the option Basics before anything else for it to work!"
 sleep 1
 echo "If you would like to support me check out my paypal link on the plugin page."
 sleep 2
