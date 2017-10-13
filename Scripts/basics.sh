@@ -8,7 +8,7 @@
 #!/bin/sh
 toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
-echo "Version: 5.5"
+echo "Version: 2.0"
 sleep 2
 echo "Written by Buzzy"
 sleep .3
