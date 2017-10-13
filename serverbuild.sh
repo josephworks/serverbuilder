@@ -28,7 +28,7 @@ echo "If you are having a problem updating the jars, run the Jars option then tr
 # broken for now
 # echo %commandhere% > /usr/bin/commands.sh
 echo ┍━━━━━━━━━━━━━┑
-echo  ServerBuilder>
+echo "ServerBuilder>"
 echo ┗━━━━━━━━━━━━━┛
 PS3='ServerBuilder>'
 options=("Spigot" "Bungee" "Waterfall" "Lilypad" "Vanilla" "Paperclip" "Basics" "Forge" "Cauldron" "Sponge" "Jars" "Web" "Travertine" "TacoSpigot" "HexaCord" "craftbukkit" "Torch" "Hose")
