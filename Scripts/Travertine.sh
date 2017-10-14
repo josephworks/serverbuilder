@@ -13,7 +13,6 @@ sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
 echo "Travertine Installer"
-echo "YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!"
 sleep 1
 cd ~
 mkdir Jars
