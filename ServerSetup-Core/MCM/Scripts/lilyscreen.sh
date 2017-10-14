@@ -1,8 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
@@ -18,14 +16,12 @@ do
             mv ~/ServerSetup/Scripts/lilyrestart.sh ~
             chmod +x proxy-linux-amd64
             screen -dmS Proxy sh
-            screen -S Proxy -X stuff "./proxy-linux-amd64
-            "
+            screen -S Proxy -X stuff "./proxy-linux-amd64"
             cd ..
             cd ~/Connect
             chmod +x connect-linux-amd64
             screen -dmS Connect sh
-            screen -S Connect -X stuff "./connect-linux-amd64
-            "
+            screen -S Connect -X stuff "./connect-linux-amd64"
             echo "Lilypad has now been installed, it is not setup so you will need to do it yourself, if you would like it setup automatically buy the upgrade! It setups bungee, waterfall, and lilypad networks!"
             sleep 2
             ;;
@@ -47,14 +43,12 @@ do
             mv ~/ServerSetup/Scripts/lilyrestart.sh ~
             chmod +x proxy-linux-amd64
             screen -dmS Proxy sh
-            screen -S Proxy -X stuff "./proxy-linux-amd64
-            "
+            screen -S Proxy -X stuff "./proxy-linux-amd64"
             cd ..
             cd ~/Connect
             chmod +x connect-linux-amd64
             screen -dmS Connect sh
-            screen -S Connect -X stuff "./connect-linux-amd64
-            "
+            screen -S Connect -X stuff "./connect-linux-amd64"
             echo "Lilypad has now been installed, it is not setup so you will need to do it yourself, if you would like it setup automatically buy the upgrade! It setups bungee, waterfall, and lilypad networks!"
             sleep 2
             ;;
