@@ -6,34 +6,13 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "
-   ▄████████    ▄████████    ▄████████  ▄█    █▄     ▄████████    ▄████████         ▄████████    ▄████████ ███    █▄      ███        ▄███████▄ 
-  ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███        ███    ███   ███    ███ ███    ███ ▀█████████▄   ███    ███ 
-  ███    █▀    ███    █▀    ███    ███ ███    ███   ███    █▀    ███    ███        ███    █▀    ███    █▀  ███    ███    ▀███▀▀██   ███    ███ 
-  ███         ▄███▄▄▄      ▄███▄▄▄▄██▀ ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀        ███         ▄███▄▄▄     ███    ███     ███   ▀   ███    ███ 
-▀███████████ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀        ▀███████████ ▀▀███▀▀▀     ███    ███     ███     ▀█████████▀  
-         ███   ███    █▄  ▀███████████ ███    ███   ███    █▄  ▀███████████               ███   ███    █▄  ███    ███     ███       ███        
-   ▄█    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███         ▄█    ███   ███    ███ ███    ███     ███       ███        
- ▄████████▀    ██████████   ███    ███  ▀██████▀    ██████████   ███    ███       ▄████████▀    ██████████ ████████▀     ▄████▀    ▄████▀      
-                            ███    ███                           ███    ███                                                                    
-
-Version: 3.0
-"
+echo "Version: 3.0"
 sleep 2
-echo "
-Created By EmeraldTnt
-"
+echo "Created By EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
-"
+echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
 sleep 1
-echo "
-Travertine Installer
-"
-echo "
-YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!
-"
+echo "Travertine Installer"
 sleep 1
 cd ~
 mkdir Jars
