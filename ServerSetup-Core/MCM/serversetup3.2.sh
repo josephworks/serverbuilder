@@ -5,7 +5,7 @@
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
-#!/bin/sh
+toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep 2
 echo "You will need to install the basics before installing spigot,bungee,waterfall, etc"

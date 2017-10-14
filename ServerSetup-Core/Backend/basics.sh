@@ -5,7 +5,7 @@
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
-#!/bin/sh
+toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "This script is useless in server builder but not in server setup script"
 echo "This script is useless in server builder but not in server setup script"
 echo "This script is useless in server builder but not in server setup script"

@@ -4,7 +4,7 @@
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
-#!/bin/sh
+toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep .6
 echo "Spigot Installer"

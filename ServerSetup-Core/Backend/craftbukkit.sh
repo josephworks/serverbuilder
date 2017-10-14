@@ -5,7 +5,7 @@
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
-#!/bin/sh
+toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "Version: 3.0"
 sleep 2
 echo "Created By EmeraldTnt"
