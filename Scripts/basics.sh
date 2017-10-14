@@ -10,7 +10,7 @@ echo "Version: 2.0"
 sleep 2
 echo "Written by EmeraldTnt"
 sleep .3
-echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
 PS3='Choose your linux distro: '
 options=("Debian" "Ubuntu" "Centos" )

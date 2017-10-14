@@ -25,7 +25,7 @@ Written by EmeraldTnt
 "
 sleep .3
 echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
+Report all bugs here: https://github.com/josephworks/serverbuilder/issues
 "
 sleep .6
 echo "
