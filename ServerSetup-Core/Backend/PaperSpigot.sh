@@ -12,11 +12,7 @@ echo "Written by EmeraldTnt"
 sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 10
-PaperSpigot Installer
-"
-echo "
-YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!
-"
+echo "PaperSpigot Installer"
 sleep 1
 PS3='What Version would you like to install? '
 options=("Latest" "1.8.8" "1.9.4" "1.10.2" "1.11.2" )
