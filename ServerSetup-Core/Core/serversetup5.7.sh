@@ -24,7 +24,7 @@ Created By EmeraldTnt
 "
 sleep .3
 echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
+Report all bugs here: https://github.com/josephworks/serverbuilder/issues
 "
 echo "
 You will need to run the option Basics before anything else for it to work!

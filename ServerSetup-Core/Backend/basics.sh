@@ -1,6 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
-##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
+##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
@@ -25,7 +25,7 @@ Created By EmeraldTnt
 "
 sleep .3
 echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
+Report all bugs here: https://github.com/josephworks/serverbuilder/issues
 "
 sleep 1
 PS3='Choose your linux distro: '

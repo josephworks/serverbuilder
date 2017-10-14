@@ -8,7 +8,7 @@ echo "Version: 5.5"
 sleep 2
 echo "Created By EmeraldTnt"
 sleep .3
-echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 echo "You will need to run the option Basics before anything else for it to work!"
 sleep 1
 echo "If you would like to support me check out my paypal link on the plugin page."

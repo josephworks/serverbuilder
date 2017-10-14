@@ -1,6 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
-##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
+##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
@@ -8,7 +8,7 @@ echo "Version: 5.5"
 sleep 2
 echo "Created By EmeraldTnt"
 sleep .3
-echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
 toilet important
 echo "Before we begin"
