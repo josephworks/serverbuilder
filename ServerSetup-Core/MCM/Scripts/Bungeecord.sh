@@ -7,7 +7,6 @@
 echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep .6
 echo "Bungeecord Installer"
-
 sleep 1
 cd ~
 mkdir Jars

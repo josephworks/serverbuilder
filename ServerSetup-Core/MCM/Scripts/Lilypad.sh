@@ -7,9 +7,8 @@
 echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep .6
 echo "Lilypad Installer"
-
 echo "Please note this only is for 64bit based servers!"
-echo "Most servers are that, but if you are not sure contact your host!"
+echo "Most servers are, but if you are not sure contact your host!"
 sleep 1
 cd ~
 mkdir Proxy

@@ -33,8 +33,7 @@ do
             cd MyServer
             chmod 770 ./start.sh
             screen -dmS myserver sh
-            screen -S myserver -X stuff "./start.sh
-            "
+            screen -S myserver -X stuff "./start.sh"
             echo "Your server is now running, to access console do screen -x myserver , the files are located ~/MyServer/, if you ever need to restart it, go into server folder and run script restart.sh!"
             sleep 1
             ;;
