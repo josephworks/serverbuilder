@@ -1,15 +1,13 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
 echo "Server Setup 3.0 by Buzzzy"
 sleep .6
 echo "Bungeecord Installer"
-echo "YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!"
+
 sleep 1
 cd ~
 mkdir Jars

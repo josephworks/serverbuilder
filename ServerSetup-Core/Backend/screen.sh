@@ -8,7 +8,7 @@
 #!/bin/sh
 echo "Version: 5.5"
 sleep 2
-echo "Written by Buzzy"
+echo "Created By EmeraldTnt"
 sleep .3
 echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
 sleep 1
@@ -29,7 +29,6 @@ do
             wget https://buzzzy.co/ServerSetup/Global/restart.sh
             cp -R ~/Jars/server.jar ~/MyServer/
             wget https://buzzzy.co/Hub/serversetup/startscripts/start.sh
-            wget https://buzzzy.co/Hub/serversetup/files/eula.txt
             chmod 770 ./start.sh
             screen -dmS myserver sh
             screen -S myserver -X stuff "./start.sh"
@@ -42,7 +41,6 @@ do
             wget https://buzzzy.co/ServerSetup/Global/restart.sh
             cp -R ~/Jars/server.jar ~/MyServer/
             wget https://buzzzy.co/Hub/serversetup/startscripts/start.sh
-            wget https://buzzzy.co/Hub/serversetup/files/eula.txt
             chmod 770 ./start.sh
             screen -d -m -t myserver sh start.sh
             sleep .6
@@ -54,7 +52,6 @@ do
             wget https://buzzzy.co/ServerSetup/Global/restart.sh
             cp -R ~/Jars/server.jar ~/MyServer/
             wget https://buzzzy.co/Hub/serversetup/startscripts/start.sh
-            wget https://buzzzy.co/Hub/serversetup/files/eula.txt
             chmod 770 ./start.sh
             screen -dmS myserver sh
             screen -S myserver -X stuff "./start.sh"

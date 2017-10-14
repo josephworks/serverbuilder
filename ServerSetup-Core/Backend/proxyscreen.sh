@@ -21,7 +21,7 @@ Version: 5.5
 "
 sleep 2
 echo "
-Written by Buzzy
+Created By EmeraldTnt
 "
 sleep .3
 echo "

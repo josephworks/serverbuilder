@@ -9,7 +9,7 @@
 echo "Server Setup 3.0 by Buzzzy"
 sleep .6
 echo "Waterfall Installer"
-echo "YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!"
+
 sleep 1
 cd ~
 mkdir Jars

@@ -1,12 +1,10 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "Server Setup 3.0 by Buzzzy"
+echo "Server Setup 3.0 by EmeraldTnt"
 sleep .2
 PS3='Choose your linux distro: '
 options=("Debian" "Ubuntu" "Centos" )

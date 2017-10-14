@@ -9,7 +9,7 @@
 echo "Server Setup 3.0 by Buzzzy"
 sleep .6
 echo "PaperSpigot Installer"
-echo "YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!"
+
 sleep 1
 PS3='What Version would you like to install? '
 options=("Latest" "1.8.8" "1.9.4" "1.10.2" )

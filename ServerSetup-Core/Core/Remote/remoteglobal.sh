@@ -1,8 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
@@ -21,7 +19,7 @@ Version: 5.6 Remote
 "
 sleep 2
 echo "
-Written by Buzzy
+Created By EmeraldTnt
 "
 sleep .3
 echo "
