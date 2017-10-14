@@ -6,24 +6,13 @@
 #!/bin/sh
 toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
-echo "
-Version: 5.5
-"
+echo "Version: 5.5"
 sleep 2
-echo "
-Written by EmeraldTnt
-"
+echo "Written by EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/josephworks/serverbuilder/issues
-"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep .6
-echo "
-Waterfall Installer
-"
-echo "
-YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!
-"
+echo "Waterfall Installer"
 sleep 1
 cd ~
 mkdir Jars

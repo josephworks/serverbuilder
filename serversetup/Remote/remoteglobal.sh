@@ -6,35 +6,18 @@
 #!/bin/sh
 toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
-echo "
-Version: 5.6 Remote
-"
+echo "Version: 5.6 Remote"
 sleep 2
-echo "
-Written by EmeraldTnt
-"
+echo "Written by EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/josephworks/serverbuilder/issues
-"
-echo "
-You will need to run the option Basics before anything else for it to work!
-"
+echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
-echo "
-If you would like to support me check out my paypal link on the plugin page.
-"
+echo "If you would like to support me check out my paypal link on the plugin page."
 sleep 2
-echo "
-Remote Server Setup Linux / Mac
-"
+echo "Remote Server Setup Linux / Mac"
 sleep .1
-echo "
-Please follow all on screen instructions as this connects to your server
-"
-echo "
-For easier access the script will create an ssh key for easier access
-"
+echo "Please follow all on screen instructions as this connects to your server"
+echo "For easier access the script will create an ssh key for easier access"
 sleep 1
 cd ~/.ssh/
 echo "What is your servers ip?"
