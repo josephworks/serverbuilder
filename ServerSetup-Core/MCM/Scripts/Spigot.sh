@@ -6,7 +6,7 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "Server Setup 3.0 by Buzzzy"
+echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep .6
 echo "Spigot Installer"
 

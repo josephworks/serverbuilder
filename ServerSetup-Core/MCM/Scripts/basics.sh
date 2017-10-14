@@ -5,7 +5,7 @@
 ##           All credit for the plugins downloaded go to their authors          ##
 ##################################################################################
 #!/bin/sh
-echo "Server Setup 3.0 by Buzzzy"
+echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep 1
 cd /etc/apt/sources.list.d/
 cat > java-8-debian.list << END_TEXT
