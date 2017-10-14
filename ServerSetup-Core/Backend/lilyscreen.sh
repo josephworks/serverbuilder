@@ -26,7 +26,6 @@ do
             chmod +x connect-linux-amd64
             screen -dmS Connect sh
             screen -S Connect -X stuff "./connect-linux-amd64"
-            echo "Lilypad has now been installed, it is not setup so you will need to do it yourself, if you would like it setup automatically buy the upgrade! It setups bungee, waterfall, and lilypad networks!"
             sleep 2
             ;;
          "Ubuntu")
@@ -39,7 +38,6 @@ do
             chmod +x connect-linux-amd64
             screen -dmS Connect sh
             screen -d -m -t connect sh ./connect-linux-amd64
-            echo "Lilypad has now been installed, it is not setup so you will need to do it yourself, if you would like it setup automatically buy the upgrade! It setups bungee, waterfall, and lilypad networks!"
             sleep 2
             ;;
          "Centos")
@@ -53,7 +51,6 @@ do
             chmod +x connect-linux-amd64
             screen -dmS Connect sh
             screen -S Connect -X stuff "./connect-linux-amd64"
-            echo "Lilypad has now been installed, it is not setup so you will need to do it yourself, if you would like it setup automatically buy the upgrade! It setups bungee, waterfall, and lilypad networks!"
             sleep 2
             ;;
         *) echo invalid option;;
