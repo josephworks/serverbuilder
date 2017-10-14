@@ -6,34 +6,13 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "
-   ▄████████    ▄████████    ▄████████  ▄█    █▄     ▄████████    ▄████████         ▄████████    ▄████████ ███    █▄      ███        ▄███████▄ 
-  ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███        ███    ███   ███    ███ ███    ███ ▀█████████▄   ███    ███ 
-  ███    █▀    ███    █▀    ███    ███ ███    ███   ███    █▀    ███    ███        ███    █▀    ███    █▀  ███    ███    ▀███▀▀██   ███    ███ 
-  ███         ▄███▄▄▄      ▄███▄▄▄▄██▀ ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀        ███         ▄███▄▄▄     ███    ███     ███   ▀   ███    ███ 
-▀███████████ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀        ▀███████████ ▀▀███▀▀▀     ███    ███     ███     ▀█████████▀  
-         ███   ███    █▄  ▀███████████ ███    ███   ███    █▄  ▀███████████               ███   ███    █▄  ███    ███     ███       ███        
-   ▄█    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███         ▄█    ███   ███    ███ ███    ███     ███       ███        
- ▄████████▀    ██████████   ███    ███  ▀██████▀    ██████████   ███    ███       ▄████████▀    ██████████ ████████▀     ▄████▀    ▄████▀      
-                            ███    ███                           ███    ███                                                                    
-
-Version: 3.0
-"
+echo "Version: 3.0"
 sleep 2
-echo "
-Created By EmeraldTnt
-"
+echo "Created By EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
-"
+echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
 sleep 1
-echo "
-CraftBukkit Installer
-"
-echo "
-YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!
-"
+echo "CraftBukkit Installer"
 sleep 1
 PS3='What Version would you like to install? '
 options=("1.8.8" "Latest" "1.9.4" "1.10" "1.7.10/1.8" "Developer" "1.12" )
@@ -95,13 +74,9 @@ do
             ./screen.sh
             ;;
           "Developer")
-            echo "
-            warning, this is a verison of spigot that is in development, and should not be used on a production server!
-            "
+            echo "warning, this is a verison of spigot that is in development, and should not be used on a production server!"
             sleep .1
-            echo "
-            please note that this might not always work, please report this not working on the github.
-            "
+            echo "please note that this might not always work, please report this not working on the github."
             cd ~
             mkdir Jars
             cd Jars

@@ -1,42 +1,18 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "
-   ▄████████    ▄████████    ▄████████  ▄█    █▄     ▄████████    ▄████████         ▄████████    ▄████████ ███    █▄      ███        ▄███████▄ 
-  ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███        ███    ███   ███    ███ ███    ███ ▀█████████▄   ███    ███ 
-  ███    █▀    ███    █▀    ███    ███ ███    ███   ███    █▀    ███    ███        ███    █▀    ███    █▀  ███    ███    ▀███▀▀██   ███    ███ 
-  ███         ▄███▄▄▄      ▄███▄▄▄▄██▀ ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀        ███         ▄███▄▄▄     ███    ███     ███   ▀   ███    ███ 
-▀███████████ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀        ▀███████████ ▀▀███▀▀▀     ███    ███     ███     ▀█████████▀  
-         ███   ███    █▄  ▀███████████ ███    ███   ███    █▄  ▀███████████               ███   ███    █▄  ███    ███     ███       ███        
-   ▄█    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███         ▄█    ███   ███    ███ ███    ███     ███       ███        
- ▄████████▀    ██████████   ███    ███  ▀██████▀    ██████████   ███    ███       ▄████████▀    ██████████ ████████▀     ▄████▀    ▄████▀      
-                            ███    ███                           ███    ███                                                                    
-
-Version: 5.5
-"
+echo "Version: 5.5"
 sleep 2
-echo "
-Created By EmeraldTnt
-"
+echo "Created By EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
-"
-echo "
-You will need to run the option Basics before anything else for it to work!
-"
+echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
+echo "You will need to run the option Basics before anything else for it to work!"
 sleep 1
-echo "
-If you would like to support me check out my paypal link on the plugin page.
-"
-echo "
-You will be choose some websoftware to install, if you don't know what software this is, then google them.
-"
+echo "If you would like to support me check out my paypal link on the plugin page."
+echo "You will be choose some websoftware to install, if you don't know what software this is, then google them."
 sleep 1
 PS3='Choose your Web software: '
 options=("Wordpress" "MyBB" "NamelessMC" "Xenforo" "Flarum" "phpBB" )
@@ -56,9 +32,7 @@ do
             ./mybb.sh
             ;;
         "Xenforo")
-            echo "
-            This does not download xenforo, you must buy and download it yourself, and upload it via ftp to /var/www/html
-            "
+            echo "This does not download xenforo, you must buy and download it yourself, and upload it via ftp to /var/www/html"
             cd /var/www/html
             wget https://buzzzy.co/Hub/ServerSetup/Scripts/Xenforo.sh
             chmod 770 ./Xenforo.sh
@@ -71,9 +45,7 @@ do
             ./NamelessMC.sh
             ;;
         "Flarum")
-            echo "
-            Please keep in mind this is beta software.
-            "
+            echo "Please keep in mind this is beta software."
             wget https://buzzzy.co/Hub/ServerSetup/Scripts/Flarum.sh
             chmod 770 ./Flarum.sh
             ./Flarum.sh

@@ -2,7 +2,6 @@
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
