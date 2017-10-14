@@ -1,5 +1,5 @@
 ##################################################################################
-##                 SERVER SETUP SCRIPT FORKED BY EMERALDTNT                     ##
+##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################

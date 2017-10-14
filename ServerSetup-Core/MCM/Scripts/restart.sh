@@ -1,6 +1,6 @@
 ##################################################################################
-##                    SERVER SETUP SCRIPT BY BUZZY                              ##
-##                 Report config error https://buzzzy.co                        ##
+##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
+##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
 ##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##

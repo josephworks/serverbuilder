@@ -1,5 +1,5 @@
 ##################################################################################
-##                    SERVER SETUP SCRIPT BY BUZZY                              ##
+##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
 ##################################################################################
