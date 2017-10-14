@@ -40,6 +40,6 @@ mkdir Jars
 cd Jars
 wget https://ci.destroystokyo.com/job/Waterfall/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar
 mv Waterfall.jar server.jar
-wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 chmod 770 screen.sh
 ./screen.sh

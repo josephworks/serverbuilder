@@ -46,7 +46,7 @@ do
             cd Jars
             wget https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.10.2-2221-5.2.0-BETA-2223/spongeforge-1.10.2-2221-5.2.0-BETA-2223.jar
             mv spongeforge-1.10.2-2221-5.2.0-BETA-2223.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -57,7 +57,7 @@ do
             cd Jars
             wget https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.11.2-2227-6.0.0-BETA-2224/spongeforge-1.11.2-2227-6.0.0-BETA-2224.jar
             mv spongeforge-1.11.2-2227-6.0.0-BETA-2224.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;

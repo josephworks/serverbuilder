@@ -46,7 +46,7 @@ do
             cd Jars
             wget https://ci.destroystokyo.com/job/PaperSpigot/lastSuccessfulBuild/artifact/paperclip.jar
             mv paperclip.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -56,7 +56,7 @@ do
             cd Jars
             wget https://ci.destroystokyo.com/job/PaperSpigot/443/artifact/Paperclip.jar
             mv Paperclip.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -66,7 +66,7 @@ do
             cd Jars
             wget https://ci.destroystokyo.com/job/PaperSpigot/773/artifact/paperclip.jar
             mv paperclip.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -76,7 +76,7 @@ do
             cd Jars
             wget https://ci.destroystokyo.com/job/PaperSpigot/916/artifact/paperclip.jar
             mv paperclip.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -86,7 +86,7 @@ do
             cd Jars
             wget https://ci.destroystokyo.com/job/PaperSpigot/1104/artifact/paperclip.jar
             mv paperclip.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;

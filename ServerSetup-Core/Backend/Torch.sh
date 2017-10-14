@@ -46,7 +46,7 @@ do
             cd Jars
             wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
             mv Torchpowered.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;

@@ -46,7 +46,7 @@ do
             unzip Jars.zip
             cd Jars
             mv forge-1.7.10-10.13.4.1566-1.7.10-universal.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -56,7 +56,7 @@ do
             unzip Jars.zip
             cd Jars
             mv forge-1.11.2-13.20.0.2228-universal.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
@@ -66,7 +66,7 @@ do
             unzip Jars.zip
             cd Jars
             mv forge-1.8-11.14.4.1563-universal.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh   
          "1.9.4")
@@ -75,7 +75,7 @@ do
             unzip Jars.zip
             cd Jars
             mv forge-1.9-12.16.1.1887-universal.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;

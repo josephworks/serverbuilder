@@ -40,6 +40,6 @@ mkdir Jars
 cd Jars
 wget https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar
 mv BungeeCord.jar server.jar
-wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 chmod 770 screen.sh
 ./screen.sh

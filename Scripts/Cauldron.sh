@@ -47,7 +47,7 @@ do
             mv cauldron-1.7.10-2.1403.1.54 Jars
             cd Jars
             mv cauldron-1.7.10-2.1403.1.54.jar server.jar
-            wget https://buzzzy.co/Hub/ServerSetup/Global/screen.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
             ;;
