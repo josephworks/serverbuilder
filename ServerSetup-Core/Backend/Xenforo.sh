@@ -1,47 +1,21 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
-echo "
-   ▄████████    ▄████████    ▄████████  ▄█    █▄     ▄████████    ▄████████         ▄████████    ▄████████ ███    █▄      ███        ▄███████▄ 
-  ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███        ███    ███   ███    ███ ███    ███ ▀█████████▄   ███    ███ 
-  ███    █▀    ███    █▀    ███    ███ ███    ███   ███    █▀    ███    ███        ███    █▀    ███    █▀  ███    ███    ▀███▀▀██   ███    ███ 
-  ███         ▄███▄▄▄      ▄███▄▄▄▄██▀ ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀        ███         ▄███▄▄▄     ███    ███     ███   ▀   ███    ███ 
-▀███████████ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀        ▀███████████ ▀▀███▀▀▀     ███    ███     ███     ▀█████████▀  
-         ███   ███    █▄  ▀███████████ ███    ███   ███    █▄  ▀███████████               ███   ███    █▄  ███    ███     ███       ███        
-   ▄█    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███         ▄█    ███   ███    ███ ███    ███     ███       ███        
- ▄████████▀    ██████████   ███    ███  ▀██████▀    ██████████   ███    ███       ▄████████▀    ██████████ ████████▀     ▄████▀    ▄████▀      
-                            ███    ███                           ███    ███                                                                    
-
-Version: 5.5
-"
+echo "Version: 5.5"
 sleep 2
-echo "
-Created By EmeraldTnt
-"
+echo "Created By EmeraldTnt"
 sleep .3
-echo "
-Report all bugs here: https://github.com/Beags/ServerSetup/issues
-"
+echo "Report all bugs here: https://github.com/Beags/ServerSetup/issues"
 sleep 1
-echo "
-YOU MUST HAVE UPLOADED YOUR XENFORO .ZIP TO /VAR/WWW/HTML FOR THIS TO WORK
-"
+echo "YOU MUST HAVE UPLOADED YOUR XENFORO .ZIP TO /VAR/WWW/HTML FOR THIS TO WORK"
 sleep .5
-echo "
-What is the name of the xenforo zip you downloaded?
-"
+echo "What is the name of the xenforo zip you downloaded?"
 read -r Xenforovar
-echo "
-Installing Xenforo
-"
-echo "
-What should the xenforo database password be?
-"
+echo "Installing Xenforo"
+echo "What should the xenforo database password be?"
 read -r Passwordvar
 mysql -u root -p -e 'create database xenforo;'
 mysql -u root -p -e 'create user xenforo;'
@@ -52,10 +26,6 @@ unzip $Xenforovar.zip
 mv xenforo/* .
 chmod 777 data
 chmod 777 internal_data
-echo "
-Main install done navagate your browser to: http://yourip/install 
-"
-echo "
-Your MYSQl Info: databasename: xenforo user: xenforo password: $Passwordvar
-"
+echo "Main install done navagate your browser to: http://yourip/install"
+echo "Your MYSQl Info: databasename: xenforo user: xenforo password: $Passwordvar"
 sleep 2
