@@ -1,8 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##   Report config error https://github.com/josephworks/serverbuilder/issues    ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
@@ -22,8 +20,7 @@ do
             mv ~/ServerSetup/start.sh ~/Proxy/
             chmod 770 ./start.sh
             screen -dmS Proxy sh
-            screen -S Proxy -X stuff "./start.sh
-            "
+            screen -S Proxy -X stuff "./start.sh"
             echo "Your server is now running, to access console do screen -x Proxy , the files are located ~/Proxy/, if you ever need to restart it, go into server folder and run script restart.sh!"
             sleep 1
             ;;
@@ -48,8 +45,7 @@ do
             mv ~/ServerSetup/start.sh ~/Proxy/
             chmod 770 ./start.sh
             screen -dmS Proxy sh
-            screen -S Proxy -X stuff "./start.sh
-            "
+            screen -S Proxy -X stuff "./start.sh"
             echo "Your server is now running, to access console do screen -x Proxy , the files are located ~/Proxy/, if you ever need to restart it, go into server folder and run script restart.sh!"
             sleep 1
             ;;
