@@ -1,4 +1,4 @@
-# every command i did to create serverbuilder
+echo every command i did to create serverbuilder
 cd ./serverbuilder
 ls
 sudo apt update
