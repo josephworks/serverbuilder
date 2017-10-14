@@ -1,8 +1,6 @@
 ##################################################################################
 ##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
 ##                 Report errors: https://github.com/Beags/ServerSetup/issues   ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 #!/bin/sh
