@@ -4,8 +4,6 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
-toilet -f mono12 -F metal Server
-toilet -f mono12 -F metal Builder
 echo "Version: 3.0"
 sleep 2
 echo "Written by EmeraldTnt"
@@ -74,13 +72,9 @@ do
             ./screen.sh
             ;;
           "Developer")
-            echo "
-            warning, this is a verison of spigot that is in development, and should not be used on a production server!
-            "
+            echo "warning, this is a verison of spigot that is in development, and should not be used on a production server!"
             sleep .1
-            echo "
-            please note that this might not always work, please report this not working on the github.
-            "
+            echo "please note that this might not always work, please report this not working on the github."
             cd ~
             mkdir Jars
             cd Jars
