@@ -8,7 +8,6 @@ toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "ServerBuilder 3.0 by EmeraldTnt"
 sleep .6
 echo "Spigot Installer"
-
 sleep 1
 PS3='What Version would you like to install? '
 options=("1.8.8" "Latest" "1.9.4" "1.10" "1.7.10/1.8" )
