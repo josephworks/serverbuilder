@@ -2,7 +2,6 @@
 ##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
 ##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
 ##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
