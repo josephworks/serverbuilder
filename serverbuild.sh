@@ -32,6 +32,11 @@ sleep 5s
 echo "If you are having a problem updating the jars, run the Jars option then try again!"
 # echo creating custom commands
 # broken for now
+# fix from https://github.com/LionSec/katoolin/blob/master/README.md
+# cp serverbuilder/serverbuild.sh /usr/bin/serverbuilder
+# cp serverbuilder/serverbuild.sh /usr/bin/serverbuild
+# chmod +x /usr/bin/serverbuilder
+# chmod +x /usr/bin/serverbuild
 # echo %commandhere% > /usr/bin/commands.sh
 echo ┍━━━━━━━━━━━━━┑
 echo "ServerBuilder>"
