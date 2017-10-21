@@ -11,7 +11,6 @@ sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
 echo "Lilypad Installer"
-echo "YOU MUST HAVE BASICS INSTALLED OR ELSE THIS WILL NOT WORK!!!!"
 echo "Please note this only is for 64bit based servers!"
 echo "Most servers are, but if you are not sure contact your host!"
 sleep 2
