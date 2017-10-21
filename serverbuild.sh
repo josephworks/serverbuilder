@@ -1,3 +1,8 @@
+##################################################################################
+##                          ServerBuilder BY EMERALDTNT                         ##
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
+##     All credit for the items installed/downloaded go to original authors     ##
+##################################################################################
 echo starting...
 #-----------------------------------------------
 echo installing dependencies
@@ -35,6 +40,12 @@ options=("Spigot" "Bungee" "Waterfall" "Lilypad" "Vanilla" "Paperclip" "Basics" 
 select opt in "${options[@]}"
 do
     case $opt in
+##################################################################################
+##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
+##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
+##     All credit for the items installed/downloaded go to original authors     ##
+##################################################################################
         "Spigot")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/spigot.sh
             chmod 770 ./spigot.sh
