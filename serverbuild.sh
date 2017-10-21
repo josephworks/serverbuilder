@@ -47,14 +47,19 @@ do
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
         "Spigot")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/spigot.sh
-            chmod 770 ./spigot.sh
-            ./spigot.sh
+
             ;;
          "Bungee")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Bungee.sh
-            chmod 770 ./Bungee.sh
-            ./Bungee.sh
+            echo "Bungeecord Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar
+            mv BungeeCord.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
          "Waterfall")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Waterfall.sh
