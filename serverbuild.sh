@@ -157,8 +157,8 @@ do
             cd ~
             mkdir Jars
             cd Jars
-            wget https://buzzzy.co/Mirror/Travertine/Travertine.jar
-            mv Travertine.jar server.jar
+            wget https://yivesmirror.com/grab/travertine/Travertine-b10.jar
+            mv Travertine-b10.jar server.jar
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
             ./screen.sh
