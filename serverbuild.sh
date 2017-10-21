@@ -47,7 +47,9 @@ do
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
         "Spigot")
-
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Spigot.sh
+            chmod 770 ./Spigot.sh
+            ./Spigot.sh
             ;;
          "Bungee")
             echo "Bungeecord Installer"
@@ -62,14 +64,34 @@ do
             ./screen.sh
             ;;
          "Waterfall")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Waterfall.sh
-            chmod 770 ./Waterfall.sh
-            ./Waterfall.sh
+            echo "Waterfall Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://ci.destroystokyo.com/job/Waterfall/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar
+            mv Waterfall.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         "Lilypad")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Lilypad.sh
-            chmod 770 ./Lilypad.sh
-            ./Lilypad.sh
+            echo "Lilypad Installer"
+            echo "Please note this only is for 64bit based servers!"
+            echo "Most servers are, but if you are not sure contact your host!"
+            sleep 2
+            cd ~
+            mkdir Proxy
+            cd Proxy
+            wget http://ci.lilypadmc.org/job/Go-Server-Proxy/lastSuccessfulBuild/artifact/target/proxy-linux-amd64
+            cd ..
+            mkdir Connect
+            cd Connect
+            wget http://ci.lilypadmc.org/job/Go-Server-Connect/lastSuccessfulBuild/artifact/target/connect-linux-amd64
+            cd ..
+            wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+            chmod 770 lilyscreen.sh
+            ./lillyscreen.sh
             ;;
         "Vanilla")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Vanilla.sh
@@ -92,9 +114,17 @@ do
             ./Forge.sh
             ;;
         "Cauldron")
-            echo "Please note that cauldron is no longer supported nor updated"
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Cauldron.sh
-            chmod 770 ./Cauldron.sh
+            echo "Cauldron Installer"
+            sleep 1
+            cd ~
+            wget https://yivesmirror.com/grab/cauldron/cauldron-1.7.10-2.1403.1.54.zip
+            unzip cauldron-1.7.10-2.1403.1.54.zip
+            mv cauldron-1.7.10-2.1403.1.54 Jars
+            cd Jars
+            mv cauldron-1.7.10-2.1403.1.54.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ./Cauldron.sh
             ;;
         "Sponge")
@@ -103,13 +133,13 @@ do
             ./Sponge.sh
             ;;
         "Jars")
-            echo "Fixing jars" 
+            echo "Attempting to fix jarfile output" 
             cd ~
             rm -rf Jars
-            echo "Should be fixed!"
+            echo "fixed!"
             ;;
         "Web")
-            echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!"
+            echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES!"
             sleep 1
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/web.sh
             chmod 770 ./web.sh
