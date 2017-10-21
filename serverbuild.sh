@@ -170,9 +170,16 @@ do
             ./screen.sh
             ;;
         "HexaCord")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/HexaCord.sh
-            chmod 770 ./HexaCord.sh
-            ./HexaCord.sh
+            echo "HexCord Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
+            mv BungeeCord.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         "craftbukkit")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/craftbukkit.sh
@@ -180,14 +187,28 @@ do
             ./craftbukkit.sh
             ;;
         "Torch")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Torch.sh
-            chmod 770 ./Torch.sh
-            ./Torch.sh
+            echo "Torch Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
+            mv Torchpowered.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         "Hose")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Hose.sh
-            chmod 770 ./Hose.sh
-            ./Hose.sh
+            echo "Hose Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://buzzzy.co/Mirror/Hose/Hose.jar
+            mv Hose.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         *) echo invalid option, please try again!;;
     esac
