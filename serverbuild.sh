@@ -4,6 +4,7 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 echo starting...
+sudo su
 #-----------------------------------------------
 echo installing dependencies
 # main work
