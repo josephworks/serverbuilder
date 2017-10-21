@@ -44,6 +44,7 @@ If you would like your Operating System supported make an issue in the issues se
 * JDK
 * php
 * mysql
+* Apt
 
 > Note:
 Does not provide a license for this software, you will need to download and upload it yourself.
