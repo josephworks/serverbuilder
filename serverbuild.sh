@@ -146,9 +146,16 @@ do
             ./web.sh
             ;;
         "Travertine")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Travertine.sh
-            chmod 770 ./Travertine.sh
-            ./Travertine.sh
+            echo "Travertine Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://buzzzy.co/Mirror/Travertine/Travertine.jar
+            mv Travertine.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         "TacoSpigot")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/TacoSpigot.sh
