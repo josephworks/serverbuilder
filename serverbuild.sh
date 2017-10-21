@@ -158,9 +158,16 @@ do
             ./screen.sh
             ;;
         "TacoSpigot")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/TacoSpigot.sh
-            chmod 770 ./TacoSpigot.sh
-            ./TacoSpigot.sh
+            echo "TacoSpigot Installer"
+            sleep 1
+            cd ~
+            mkdir Jars
+            cd Jars
+            wget https://ci.techcable.net/job/TacoSpigot/lastSuccessfulBuild/artifact/build/TacoSpigot.jar
+            mv TacoSpigot.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            ./screen.sh
             ;;
         "HexaCord")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/HexaCord.sh
