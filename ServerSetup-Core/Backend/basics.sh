@@ -1,31 +1,12 @@
 ##################################################################################
-##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
-##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
-##                 Report Spigot/Bungee errors https://goo.gl/w9aoZT            ##
-##################################################################################
+##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-echo "This script is useless in server builder but not in server setup script"
-sleep 5
-echo "Version: 5.5"
+echo "Version: 2.0"
 sleep 2
-echo "Created By EmeraldTnt"
+echo "Written by EmeraldTnt"
 sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
@@ -35,39 +16,17 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Debian")
-            apt-get update
-            apt-get install wget
-            apt-get install mysql-server
+            sudo apt update
+            sudo apt install wget mysql-server default-jre screen git php5-common libapache2-mod-php5 php5-cli apache2
             /etc/init.d/apache2 restart
-            cd /etc/apt/sources.list.d/
-            wget https://buzzzy.co/Hub/serversetup/Debian/java-8-debian.list
-            apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
-            apt-get update
-            apt-get install oracle-java8-installer
-            apt-get update
-            apt-get install screen
-            apt-get install git
-            apt-get install apache2
-            apt-get install php5-common libapache2-mod-php5 php5-cli
             service apache2 restart
             echo "Basics installed, you can go back to the main script and install the server now!"
             exit
             ;;
          "Ubuntu")
-            apt-get update
-            apt-get install wget
-            apt-get install apache2
-            apt-get install mysql-server
-            apt-get install php5 libapache2-mod-php5
+            sudo apt update
+            sudo apt install wget apache2 mysql-server php5 libapache2-mod-php5 default-jre screen git
             /etc/init.d/apache2 restart
-            cd /etc/apt/sources.list.d/
-            wget https://buzzzy.co/Hub/serversetup/Debian/java-8-debian.list
-            apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
-            apt-get update
-            apt-get install oracle-java8-installer
-            apt-get update
-            apt-get install screen
-            apt-get install git
             echo "Basics installed, you can go back to the main script and install the server now!"
             exit
             ;;

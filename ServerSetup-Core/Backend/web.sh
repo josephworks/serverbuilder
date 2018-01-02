@@ -1,16 +1,17 @@
 ##################################################################################
-##                 SERVER SETUP SCRIPT CREATED BY EMERALDTNT                    ##
-##    Report all errors https://github.com/josephworks/serverbuilder/issues     ##
+##                    SERVER SETUP MODULE SCRIPT BY EMERALDTNT                  ##
+##      Report errors: https://github.com/josephworks/serverbuilder/issues      ##
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
 echo "Version: 5.5"
 sleep 2
-echo "Created By EmeraldTnt"
+echo "Written by EmeraldTnt"
 sleep .3
 echo "Report all bugs here: https://github.com/josephworks/serverbuilder/issues"
 sleep 1
-echo "You will be choose some websoftware to install, if you don't know what software this is, then google it."
+echo "If you would like to support me check out my paypal link on the plugin page."
+echo "You will be choose some websoftware to install, if you don't know what software this is, then google them."
 sleep 1
 PS3='Choose your Web software: '
 options=("Wordpress" "MyBB" "NamelessMC" "Xenforo" "Flarum" "phpBB" )
