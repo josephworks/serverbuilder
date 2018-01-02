@@ -155,9 +155,10 @@ do
             ./Travertine.sh
             ;;
         "TacoSpigot")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/TacoSpigot.sh
-            chmod 770 ./TacoSpigot.sh
-            ./TacoSpigot.sh
+            wget https://ci.techcable.net/job/TacoSpigot/lastSuccessfulBuild/artifact/build/TacoSpigot.jar
+            mv TacoSpigot.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            ./screen.sh
             ;;
         "HexaCord")
             wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
