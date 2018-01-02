@@ -51,12 +51,12 @@ do
             chmod 770 ./spigot.sh
             ./spigot.sh
             ;;
-         "Bungee")
+        "Bungee")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Bungee.sh
             chmod 770 ./Bungee.sh
             ./Bungee.sh
             ;;
-         "Waterfall")
+        "Waterfall")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Waterfall.sh
             chmod 770 ./Waterfall.sh
             ./Waterfall.sh
