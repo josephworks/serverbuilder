@@ -59,7 +59,6 @@ do
         "Waterfall")
             wget https://ci.destroystokyo.com/job/Waterfall/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar
             mv Waterfall.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         "Lilypad")
@@ -153,19 +152,16 @@ do
         "Travertine")
             wget https://buzzzy.co/Mirror/Travertine/Travertine.jar
             mv Travertine.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         "TacoSpigot")
             wget https://ci.techcable.net/job/TacoSpigot/lastSuccessfulBuild/artifact/build/TacoSpigot.jar
             mv TacoSpigot.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         "HexaCord")
             wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
             mv BungeeCord.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         "craftbukkit")
@@ -176,13 +172,11 @@ do
         "Torch")
             wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
             mv Torchpowered.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         "Hose")
             wget https://buzzzy.co/Mirror/Hose/Hose.jar
             mv Hose.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             ./screen.sh
             ;;
         *) echo invalid option, please try again!;;
