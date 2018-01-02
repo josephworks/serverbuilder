@@ -172,9 +172,10 @@ do
             ./craftbukkit.sh
             ;;
         "Torch")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Torch.sh
-            chmod 770 ./Torch.sh
-            ./Torch.sh
+            wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
+            mv Torchpowered.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            ./screen.sh
             ;;
         "Hose")
             wget https://buzzzy.co/Mirror/Hose/Hose.jar
