@@ -4,6 +4,7 @@ echo starting...
 wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 cd ~
 mkdir Jars
+mkdir Proxy
 cd Jars
 chmod 770 screen.sh
 echo installing dependencies
