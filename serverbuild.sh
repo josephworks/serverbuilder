@@ -81,7 +81,43 @@ do
             ./Paperspigot.sh
             ;;
         "Basics")
-            basics - please redo
+            echo starting...
+            #-----------------------------------------------
+            # main work
+            cd ~
+            mkdir Jars
+            mkdir Proxy
+            cd Proxy
+            wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+            chmod 770 lilyscreen.sh
+            mkdir Connect
+            cd ..
+            cd Jars
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            echo installing dependencies
+            sudo apt update
+            sudo apt install toilet figlet maven default-jre
+            # serversetup depends
+            echo installing dependencies ..
+            echo "trying for Ubuntu"
+            sudo apt install wget apache2 mysql-server php5 libapache2-mod-php5 default-jre screen git curl unzip
+            echo "Trying for Debian"
+            sudo apt install wget mysql-server default-jre screen git php5-common libapache2-mod-php5 php5-cli apache2 curl unzip
+            echo "For CentOS:"
+            echo "You will need to run the option Basics before anything else for it to work!"
+            #-----------------------------------------------
+            echo started
+            echo showing start message...
+            toilet -f mono12 -F metal Server
+            toilet -f mono12 -F metal Builder
+            cd ~
+            echo "Version: 2.0"
+            echo "Written by Joseph/Emeraldtnt!"
+            echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
+            echo "If you would like to support me check out my paypal link on the plugin page."
+            sleep 5s
+            echo "If you are having a problem updating the jars, run the Jars option then try again!"
             ;;
         "Forge")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Forge.sh
