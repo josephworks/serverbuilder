@@ -6,8 +6,19 @@
 echo starting...
 sudo su
 #-----------------------------------------------
-echo installing dependencies
 # main work
+cd ~
+mkdir Jars
+mkdir Proxy
+cd Proxy
+wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+chmod 770 lilyscreen.sh
+mkdir Connect
+cd ..
+cd Jars
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+chmod 770 screen.sh
+echo installing dependencies
 sudo apt update
 sudo apt install toilet figlet maven default-jre
 # serversetup depends
@@ -110,9 +121,43 @@ do
             ./Paperspigot.sh
             ;;
         "Basics")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/basics.sh
-            chmod 770 ./basics.sh
-            ./basics.sh
+            echo starting...
+            #-----------------------------------------------
+            # main work
+            cd ~
+            mkdir Jars
+            mkdir Proxy
+            cd Proxy
+            wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+            chmod 770 lilyscreen.sh
+            mkdir Connect
+            cd ..
+            cd Jars
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            chmod 770 screen.sh
+            echo installing dependencies
+            sudo apt update
+            sudo apt install toilet figlet maven default-jre
+            # serversetup depends
+            echo installing dependencies ..
+            echo "trying for Ubuntu"
+            sudo apt install wget apache2 mysql-server php5 libapache2-mod-php5 default-jre screen git curl unzip
+            echo "Trying for Debian"
+            sudo apt install wget mysql-server default-jre screen git php5-common libapache2-mod-php5 php5-cli apache2 curl unzip
+            echo "For CentOS:"
+            echo "You will need to run the option Basics before anything else for it to work!"
+            #-----------------------------------------------
+            echo started
+            echo showing start message...
+            toilet -f mono12 -F metal Server
+            toilet -f mono12 -F metal Builder
+            cd ~
+            echo "Version: 2.0"
+            echo "Written by Joseph/Emeraldtnt!"
+            echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
+            echo "If you would like to support me check out my paypal link on the plugin page."
+            sleep 5s
+            echo "If you are having a problem updating the jars, run the Jars option then try again!"
             ;;
         "Forge")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Forge.sh
@@ -120,18 +165,11 @@ do
             ./Forge.sh
             ;;
         "Cauldron")
-            echo "Cauldron Installer"
-            sleep 1
-            cd ~
             wget https://yivesmirror.com/grab/cauldron/cauldron-1.7.10-2.1403.1.54.zip
             unzip cauldron-1.7.10-2.1403.1.54.zip
             mv cauldron-1.7.10-2.1403.1.54 Jars
-            cd Jars
             mv cauldron-1.7.10-2.1403.1.54.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
-            ./Cauldron.sh
             ;;
         "Sponge")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Sponge.sh
@@ -152,39 +190,18 @@ do
             ./web.sh
             ;;
         "Travertine")
-            echo "Travertine Installer"
-            sleep 1
-            cd ~
-            mkdir Jars
-            cd Jars
-            wget https://yivesmirror.com/grab/travertine/Travertine-b10.jar
-            mv Travertine-b10.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
+            wget https://buzzzy.co/Mirror/Travertine/Travertine.jar
+            mv Travertine.jar server.jar
             ./screen.sh
             ;;
         "TacoSpigot")
-            echo "TacoSpigot Installer"
-            sleep 1
-            cd ~
-            mkdir Jars
-            cd Jars
             wget https://ci.techcable.net/job/TacoSpigot/lastSuccessfulBuild/artifact/build/TacoSpigot.jar
             mv TacoSpigot.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
             ;;
         "HexaCord")
-            echo "HexCord Installer"
-            sleep 1
-            cd ~
-            mkdir Jars
-            cd Jars
             wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
             mv BungeeCord.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
             ;;
         "craftbukkit")
@@ -193,27 +210,13 @@ do
             ./craftbukkit.sh
             ;;
         "Torch")
-            echo "Torch Installer"
-            sleep 1
-            cd ~
-            mkdir Jars
-            cd Jars
             wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
             mv Torchpowered.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
             ;;
         "Hose")
-            echo "Hose Installer"
-            sleep 1
-            cd ~
-            mkdir Jars
-            cd Jars
             wget https://buzzzy.co/Mirror/Hose/Hose.jar
             mv Hose.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
             ;;
         *) echo invalid option, please try again!;;
