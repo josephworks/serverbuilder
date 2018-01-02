@@ -1,11 +1,16 @@
 echo starting...
 #-----------------------------------------------
 # main work
-wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 cd ~
 mkdir Jars
 mkdir Proxy
+cd Proxy
+wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+chmod 770 lilyscreen.sh
+mkdir Connect
+cd ..
 cd Jars
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 chmod 770 screen.sh
 echo installing dependencies
 sudo apt update
@@ -57,9 +62,13 @@ do
             ./Waterfall.sh
             ;;
         "Lilypad")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Lilypad.sh
-            chmod 770 ./Lilypad.sh
-            ./Lilypad.sh
+            cd ..
+            cd Proxy
+            wget http://ci.lilypadmc.org/job/Go-Server-Proxy/lastSuccessfulBuild/artifact/target/proxy-linux-amd64
+            cd Connect
+            wget http://ci.lilypadmc.org/job/Go-Server-Connect/lastSuccessfulBuild/artifact/target/connect-linux-amd64
+            cd ..
+            ./lillyscreen.sh
             ;;
         "Vanilla")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Vanilla.sh
@@ -72,9 +81,7 @@ do
             ./Paperspigot.sh
             ;;
         "Basics")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/basics.sh
-            chmod 770 ./basics.sh
-            ./basics.sh
+            basics - please redo
             ;;
         "Forge")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Forge.sh
