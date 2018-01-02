@@ -132,9 +132,10 @@ do
             ./Torch.sh
             ;;
         "Hose")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Hose.sh
-            chmod 770 ./Hose.sh
-            ./Hose.sh
+            wget https://buzzzy.co/Mirror/Hose/Hose.jar
+            mv Hose.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            ./screen.sh
             ;;
         *) echo invalid option, please try again!;;
     esac
