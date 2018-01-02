@@ -1,5 +1,9 @@
 echo starting...
 #-----------------------------------------------
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+cd ~
+mkdir Jars
+cd Jars
 echo installing dependencies
 # main work
 sudo apt update
@@ -27,9 +31,6 @@ echo "If you are having a problem updating the jars, run the Jars option then tr
 # echo creating custom commands
 # broken for now
 # echo %commandhere% > /usr/bin/commands.sh
-cd ~
-mkdir Jars
-cd Jars
 echo ┍━━━━━━━━━━━━━┑
 echo "ServerBuilder>"
 echo ┗━━━━━━━━━━━━━┛
