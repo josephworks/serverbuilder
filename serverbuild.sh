@@ -57,9 +57,10 @@ do
             ./Bungee.sh
             ;;
         "Waterfall")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/Waterfall.sh
-            chmod 770 ./Waterfall.sh
-            ./Waterfall.sh
+            wget https://ci.destroystokyo.com/job/Waterfall/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar
+            mv Waterfall.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            ./screen.sh
             ;;
         "Lilypad")
             cd ..
