@@ -1,11 +1,12 @@
 echo starting...
 #-----------------------------------------------
+# main work
 wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
 cd ~
 mkdir Jars
 cd Jars
+chmod 770 screen.sh
 echo installing dependencies
-# main work
 sudo apt update
 sudo apt install toilet figlet maven default-jre
 # serversetup depends
@@ -84,8 +85,6 @@ do
             unzip cauldron-1.7.10-2.1403.1.54.zip
             mv cauldron-1.7.10-2.1403.1.54 Jars
             mv cauldron-1.7.10-2.1403.1.54.jar server.jar
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
-            chmod 770 screen.sh
             ./screen.sh
             ;;
         "Sponge")
@@ -117,9 +116,10 @@ do
             ./TacoSpigot.sh
             ;;
         "HexaCord")
-            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/HexaCord.sh
-            chmod 770 ./HexaCord.sh
-            ./HexaCord.sh
+            wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
+            mv BungeeCord.jar server.jar
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
+            ./screen.sh
             ;;
         "craftbukkit")
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/craftbukkit.sh
