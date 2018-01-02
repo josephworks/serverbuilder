@@ -27,6 +27,7 @@ echo "If you are having a problem updating the jars, run the Jars option then tr
 # echo creating custom commands
 # broken for now
 # echo %commandhere% > /usr/bin/commands.sh
+cd ~
 mkdir Jars
 cd Jars
 echo ┍━━━━━━━━━━━━━┑
@@ -78,11 +79,9 @@ do
             ./Forge.sh
             ;;
         "Cauldron")
-            cd ~
             wget https://yivesmirror.com/grab/cauldron/cauldron-1.7.10-2.1403.1.54.zip
             unzip cauldron-1.7.10-2.1403.1.54.zip
             mv cauldron-1.7.10-2.1403.1.54 Jars
-            cd Jars
             mv cauldron-1.7.10-2.1403.1.54.jar server.jar
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/ServerSetup-Core/Backend/screen.sh
             chmod 770 screen.sh
