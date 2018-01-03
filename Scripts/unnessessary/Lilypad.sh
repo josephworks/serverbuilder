@@ -23,6 +23,6 @@ mkdir Connect
 cd Connect
 wget http://ci.lilypadmc.org/job/Go-Server-Connect/lastSuccessfulBuild/artifact/target/connect-linux-amd64
 cd ..
-wget https://buzzzy.co/Hub/ServerSetup/Global/lilyscreen.sh
+wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/functions/lilyscreen.sh
 chmod 770 lilyscreen.sh
 ./lillyscreen.sh
