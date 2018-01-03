@@ -5,6 +5,8 @@ Debian
 Ubuntu
 CentOS
 
+> Note: created with bash on ubuntu on linux (Ubuntu)
+
 If you would like your Operating System supported make an issue in the issues section
 # Current Versions
 
