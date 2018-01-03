@@ -19,13 +19,13 @@ do
     case $opt in
         "Vinilla")
             cd ~
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/SpongeVinilla.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/SpongeVanilla.sh
             chmod 770 SpongeVinilla.sh
             ./SpongeVinilla.sh
             ;;
          "SpongeForge")
             cd ~
-            wget https://buzzzy.co/Hub/ServerSetup/Scripts/SpongeForge.sh
+            wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/SpongeForge.sh
             chmod 770 SpongeForge.sh
             ./SpongeForge.sh
             ;;
