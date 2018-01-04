@@ -57,11 +57,13 @@ do
             ./Bungee.sh
             ;;
         "Waterfall")
+        # Script embedded
             wget https://ci.destroystokyo.com/job/Waterfall/lastSuccessfulBuild/artifact/Waterfall-Proxy/bootstrap/target/Waterfall.jar
             mv Waterfall.jar server.jar
             ./screen.sh
             ;;
         "Lilypad")
+        # Script embedded
             cd ..
             cd Proxy
             wget http://ci.lilypadmc.org/job/Go-Server-Proxy/lastSuccessfulBuild/artifact/target/proxy-linux-amd64
@@ -81,6 +83,7 @@ do
             ./Paperspigot.sh
             ;;
         "Basics")
+        # Script embedded (Copied from beginning of script)
             echo starting...
             #-----------------------------------------------
             # main work
@@ -125,6 +128,7 @@ do
             ./Forge.sh
             ;;
         "Cauldron")
+        # Script embedded
             wget https://yivesmirror.com/grab/cauldron/cauldron-1.7.10-2.1403.1.54.zip
             unzip cauldron-1.7.10-2.1403.1.54.zip
             mv cauldron-1.7.10-2.1403.1.54 Jars
@@ -143,23 +147,26 @@ do
             echo "Should be fixed!"
             ;;
         "Web")
-            echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON THE GITHUB!"
+            echo "THIS IS IN BETA, PLEASE REPORT ANY ISSUES ON GITHUB!"
             sleep 1
             wget https://raw.githubusercontent.com/josephworks/serverbuilder/master/Scripts/web.sh
             chmod 770 ./web.sh
             ./web.sh
             ;;
         "Travertine")
+        # Script embedded
             wget https://buzzzy.co/Mirror/Travertine/Travertine.jar
             mv Travertine.jar server.jar
             ./screen.sh
             ;;
         "TacoSpigot")
+        # Script embedded
             wget https://ci.techcable.net/job/TacoSpigot/lastSuccessfulBuild/artifact/build/TacoSpigot.jar
             mv TacoSpigot.jar server.jar
             ./screen.sh
             ;;
         "HexaCord")
+        # Script embedded
             wget https://github.com/HexagonMC/BungeeCord/releases/download/v162/BungeeCord.jar
             mv BungeeCord.jar server.jar
             ./screen.sh
@@ -170,11 +177,13 @@ do
             ./craftbukkit.sh
             ;;
         "Torch")
+        # Script embedded
             wget https://buzzzy.co/Mirror/Torch/Torchpowered.jar
             mv Torchpowered.jar server.jar
             ./screen.sh
             ;;
         "Hose")
+        # Script embedded
             wget https://buzzzy.co/Mirror/Hose/Hose.jar
             mv Hose.jar server.jar
             ./screen.sh
