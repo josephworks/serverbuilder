@@ -6,7 +6,7 @@
 ##     All credit for the items installed/downloaded go to original authors     ##
 ##################################################################################
 toilet -f mono12 -F metal Server && toilet -f mono12 -F metal Builder
-echo "Version: 3.0"
+echo "Version: 3.5"
 sleep 2
 echo "Written by EmeraldTnt"
 sleep .3

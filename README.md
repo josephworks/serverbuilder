@@ -1,6 +1,10 @@
-# serverbuilder
+# ServerBuilder
+
 A server builder for minecraft!
+Version: 3.5
+
 # Currently Supported OS's
+
 Debian
 Ubuntu
 CentOS
@@ -8,14 +12,15 @@ CentOS
 > Note: created with bash on ubuntu on linux (Ubuntu)
 
 If you would like your Operating System supported make an issue in the issues section
+
 # Current Versions
 
 > Server Softwares
-*   Spigot
+* Spigot
 * Vanilla
 * PaperSpigot
 * Forge
-*  Cauldron
+* Cauldron
 * Sponge
 * CraftBukkit
 * Torch
@@ -29,7 +34,7 @@ If you would like your Operating System supported make an issue in the issues se
 * HexaCord
 * Travertine
 
->  Websoftware
+> Websoftware
 * Wordpress
 * Namelessmc
 * Mybb
@@ -56,24 +61,32 @@ All of the Server and Proxy softwares support a variety of minecraft versions, m
 If the software you want to use is not listed, feel free to request it in the issues tab.
 
 # Installation
+
 ---
+
 # Installation script
+
 >echo "starting..."
 sudo apt update && sudo apt upgrade
 sudo apt install git
-git clone https://github.com/josephworks/serverbuilder.git
-cd serverbuilder
+git clone https://github.com/josephworks/S.git
+cd S
 ./serverbuild.sh
 ---
+
 # One line installation script
->echo "starting..." && sudo apt update && sudo apt upgrade && sudo apt install git && git clone https://github.com/josephworks/serverbuilder.git && cd serverbuilder && ./serverbuild.sh
+
+>echo "starting..." && sudo apt update && sudo apt upgrade && sudo apt install git && git clone https://github.com/josephworks/serverbuilder.git && cd S && ./serverbuild.sh
 ---
+
 ```sh
  1. Download ServerBuilder Software
  2. upload it via ftp OR use the remote feature
  3. Execute One line installation script on terminal with SSH
 ```
+
 # Remote Setup currently supports:
+
 * Windows 10 (No other windows version supported)
 * Ubuntu
 * Debian
@@ -82,38 +95,50 @@ cd serverbuilder
 
 Windows is supported if Bash on Ubuntu on Windows is working
 There is an install script provided!
-------
+
+---
+
 ```sh
 3. Unzip the serversetup into your Downloads folder
 4. Make sure it unziped into your downloads folder and it shows serversetup5.0.sh and the folder Remote
 5. Open remote folder.
 ```
+
 # WINDOWS ONLY
+
 > Note: This Installs Bash on Ubuntu on Windows. If you have done this already execute the One line installation script with bash.exe
+
 ```sh
 6. Click install.bat
 7. Follow all prompts on screen, your computer will restart and when it does a cmd window should appear, follow prompts and then it will open the remote script. Follow all prompts with the remote script to install your software.
 8. You should now be able to use your software if not please post a report here.
 ```
+
 # NON WINDOWS
+
 ```sh
 execute the One line installation script
 ```
+
 # NON-REMOTE
+
 ```sh
 3. After uploading it to your server, login to ssh as root and run the following commands:
 ```
+
 # Debian/Ubuntu
+
 ```sh
 >echo "starting..."
 sudo apt update && sudo apt upgrade
 sudo apt install git
-git clone https://github.com/josephworks/serverbuilder.git
-cd serverbuilder
+git clone https://github.com/josephworks/S.git
+cd S
 ./serverbuild.sh
 ```
 
 # CentOS
+
 ```sh
 yum install unzip
 unzip serversetup.zip
