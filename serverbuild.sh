@@ -30,7 +30,7 @@ toilet -f mono12 -F metal Server
 toilet -f mono12 -F metal Builder
 cd ~
 echo "Version: 2.0"
-echo "Written by Joseph/Emeraldtnt!"
+echo "Written by Joseph/EmeraldTnt!"
 echo "Report all bugs and suggestions here: https://github.com/josephworks/serverbuilder/issues"
 echo "If you would like to support me check out my paypal link on the plugin page."
 sleep 5s
