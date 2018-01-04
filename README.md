@@ -69,8 +69,8 @@ If the software you want to use is not listed, feel free to request it in the is
 >echo "starting..."
 sudo apt update && sudo apt upgrade
 sudo apt install git
-git clone https://github.com/josephworks/S.git
-cd S
+git clone https://github.com/josephworks/serverbuilder.git
+cd serverbuilder
 ./serverbuild.sh
 ---
 
@@ -132,8 +132,8 @@ execute the One line installation script
 >echo "starting..."
 sudo apt update && sudo apt upgrade
 sudo apt install git
-git clone https://github.com/josephworks/S.git
-cd S
+git clone https://github.com/josephworks/serverbuilder.git
+cd serverbuilder
 ./serverbuild.sh
 ```
 
