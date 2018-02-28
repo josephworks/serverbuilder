@@ -71,12 +71,12 @@ sudo apt update && sudo apt upgrade
 sudo apt install git
 git clone https://github.com/josephworks/serverbuilder.git
 cd serverbuilder
-./serverbuild.sh
+sudo bash ./serverbuild.sh
 ---
 
 # One line installation script
 
->echo "starting..." && sudo apt update && sudo apt upgrade && sudo apt install git && git clone https://github.com/josephworks/serverbuilder.git && cd S && ./serverbuild.sh
+>echo "starting..." && sudo apt update && sudo apt upgrade && sudo apt install git && git clone https://github.com/josephworks/serverbuilder.git && cd S && sudo bash ./serverbuild.sh
 ---
 
 ```sh
@@ -134,7 +134,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install git
 git clone https://github.com/josephworks/serverbuilder.git
 cd serverbuilder
-./serverbuild.sh
+sudo bash ./serverbuild.sh
 ```
 
 # CentOS
@@ -143,7 +143,7 @@ cd serverbuilder
 yum install unzip
 unzip serversetup.zip
 chmod 770 ./serversetup5.0.sh
-./serverbuild.sh
+sudo bash ./serverbuild.sh
 ```
 
 # Support
