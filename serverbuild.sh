@@ -18,9 +18,9 @@ sudo apt install toilet figlet maven default-jre
 # serversetup depends
 echo installing dependencies ..
 echo "trying for Ubuntu"
-sudo apt install wget apache2 mysql-server php5 libapache2-mod-php5 default-jre screen git curl unzip
+sudo apt install wget apache2 mysql-server php7.4 default-jre screen git curl unzip
 echo "Trying for Debian"
-sudo apt install wget mysql-server default-jre screen git php5-common libapache2-mod-php5 php5-cli apache2 curl unzip
+sudo apt install wget mysql-server default-jre screen git php7.4-common php7.4-cli apache2 curl unzip
 echo "For CentOS:"
 echo "You will need to run the option Basics before anything else for it to work!"
 #-----------------------------------------------
